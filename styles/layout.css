@@ -13,6 +13,18 @@ main {
     max-width: 52.8rem;
     margin-left: auto;
   }
+
+  .back {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  h1 {
+    font: 600 2.4rem/1.25 var(--font-family);
+    margin-block: 2.4rem .8rem;
+    color: var(--text-primary);
+  }
 }
 
 aside {
@@ -21,5 +33,18 @@ aside {
 
   .aside-container {
     max-width: 49.6rem;
+
+    & > img {
+      margin-top: 3.2rem;
+    }
+  }
+
+  h2 {
+    font: 600 4rem/1.25 var(--font-family);
+    color: var(--text-primary);
+
+    strong {
+      color: var(--text-highlight);
+    }
   }
 }
