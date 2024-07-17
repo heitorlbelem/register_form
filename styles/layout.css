@@ -6,20 +6,20 @@
 }
 
 main {
-  padding: 4rem;
+  padding: 6.4rem;
   overflow: auto;
 
   .main-container {
-    max-width: 33rem;
+    max-width: 52.8rem;
     margin-left: auto;
   }
 }
 
 aside {
   background-color: var(--surface-secondary);
-  padding: 4rem;
+  padding: 6.4rem;
 
   .aside-container {
-    max-width: 31rem;
+    max-width: 49.6rem;
   }
 }

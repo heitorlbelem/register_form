@@ -1,8 +1,10 @@
 :root {
+  font-size: 62.5%;
+
   --font-family: 'Poppins', sans-serif;
 
-  --text: 400 1rem/1.5 var(--font-family);
-  --text-sm: 400 0.875rem/1.4 var(--font-family);
+  --text: 400 1.6rem/1.5 var(--font-family);
+  --text-sm: 400 1.4rem/1.4 var(--font-family);
 
   --text-primary: #292524;
   --text-secondary: #57534e;
