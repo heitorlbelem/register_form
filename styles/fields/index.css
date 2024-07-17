@@ -22,3 +22,27 @@ textarea:focus {
   border: .2rem solid var(--stroke-highlight);
   outline-offset: .1px;
 }
+
+input[type="date"] {
+  position: relative;
+
+  &::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+
+  &::before {
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    background-image: url("../../assets/icons/calendar-03.svg");
+
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+select {
+  background: url("../../assets/icons/arrow-down-01.svg") no-repeat calc(100% - 1rem);
+}
