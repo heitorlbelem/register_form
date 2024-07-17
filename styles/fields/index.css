@@ -1,0 +1,24 @@
+label {
+  font: var(--text-sm);
+  color: var(--text-secondary);
+
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+input, select, textarea {
+  appearance: none;
+  width: 100%;
+  padding: 1.2rem 1.6rem;
+  font: var(--text);
+  border-radius: .8rem;
+  border: 1px solid var(--stroke-default);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: .4rem solid var(--surface-secondary);
+  border: .2rem solid var(--stroke-highlight);
+  outline-offset: .1px;
+}
