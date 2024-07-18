@@ -22,3 +22,39 @@ fieldset + fieldset {
 .address .flex {
   gap: 2rem;
 }
+
+.actions-wrapper {
+  margin-top: 4.8rem;
+  padding-top: 1.6rem;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.6rem;
+}
+
+button {
+  all: unset;
+  font-weight: 500;
+  padding: 1.2rem 2.4rem;
+  border-radius: .8rem;
+  cursor: pointer;
+
+  &.btn-primary {
+    background-color: var(--brand-color-dark);
+    color: var(--surface-primary);
+
+    &:hover, &:focus {
+      background-color: #F3541C;
+    }
+  }
+
+  &.btn-secondary {
+    color: var(--text-highlight);
+    border: 1px solid var(--text-highlight);
+
+    &:hover, &:focus {
+      color: var(--brand-color-dark);
+      outline: 3px solid var(--surface-secondary);
+    }
+  }
+}
