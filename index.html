@@ -25,7 +25,7 @@
         </p>
 
         <form enctype="multipart/form-data">
-          <fieldset>
+          <fieldset class="child-info">
             <legend>Informações da criança</legend>
 
             <div class="input-wrapper">
@@ -103,6 +103,30 @@
               <div class="input-wrapper">
                 <label for="state">Estado</label>
                 <input type="text" name="state" id="state" value="SP" disabled />
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="gardian-info">
+            <legend>Informações do responsável</legend>
+
+            <div class="input-wrapper">
+              <label for="gardian-name">Nome do responsável</label>
+              <input type="text" name="gardian-name" id="gardian-name">
+              <small>Principal responsável legal e contato de emergência</small>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="gardian-cel">Telefone</label>
+              <input type="text" name="gardian-cel" id="gardian-cel">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="gardian-email">E-mail</label>
+              <input type="email" name="gardian-email" id="gardian-email">
+              <div class="error">
+                <img src="assets/icons/vector.svg" alt="Icone de atençao">
+                <span>Insira um e-mail válido</span>
               </div>
             </div>
           </fieldset>
