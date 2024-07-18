@@ -13,6 +13,7 @@
 
   --surface-primary: #ffffff;
   --surface-secondary: #fee7d6;
+  --surface-disabled: #e7e5e4;
 
   --stroke-default: #d6d3d1;
   --stroke-highlight: #f3541c;
@@ -34,4 +35,12 @@ body {
 
 img {
   max-width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-2 {
+  flex: 2;
 }

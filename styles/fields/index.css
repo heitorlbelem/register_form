@@ -35,8 +35,8 @@ input[type="date"] {
 
   &::before {
     content: "";
-    width: 2rem;
-    height: 2rem;
+    width: 2.4rem;
+    height: 2.4rem;
     background-image: url("../../assets/icons/calendar-03.svg");
 
     position: absolute;
@@ -48,4 +48,16 @@ input[type="date"] {
 
 select {
   background: url("../../assets/icons/arrow-down-01.svg") no-repeat calc(100% - 1rem);
+}
+
+.input-wrapper:has([disabled]) {
+  opacity: .5;
+}
+
+input {
+  &[disabled] {
+    background-color: var(--surface-disabled);
+    border: 1px solid var(--stroke-default);
+    color: var(--text-primary);
+  }
 }
